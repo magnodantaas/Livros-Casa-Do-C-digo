@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+id="org.sergiolopes.cenourapp"
+version="1.0.0">
+<name>
+Só de Cenoura
+</name>
+<description>
+Menu do restaurante Só de Cenoura.
+</description>
+<author href="http://www.magnodantaas.github.io"
+email="magnodantas1991@gmail.com">
+Magno Miranda Dantas
+</author>
+
+<!-- Preferências Android -->
+<preference name="orientation" value="portrait" />
+<preference name="fullscreen" value="true" />
+<preference name="permissions" value="none" />
+<preference name="android-minSdkVersion" value="16" />
+<platform name="android" />
+<!-- Preferências Android -->
+
+<!-- Ícone e Splash Screen -->
+<icon src="imagens/icon.png" />
+<plugin name="cordova-plugin-splashscreen" />
+<splash src="imagens/splash.png" />
+<!-- Ícone e Splash Screen -->
+
+</widget>
